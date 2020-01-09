@@ -134,27 +134,40 @@ main .main-buttons button:hover {
     color: #222;
 }
 footer{
-    display: flex;
-}
+    display: grid;
+    /*-------propiedad------*/
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
 
-footer .footer-left{
+    /*---------------------------------------*/
+    width: 100%;
+    height: 50px;
+    /*-------Para lograr que el footer este al final siempre-------*/
+    position: absolute;
+    bottom: 0;
+
+    font-size: 13px;
+    background-color: #f2f2f2;
+    border-top:1px solid #e4e4e4;
+
+}
+footer ul{
     text-decoration: none;
-    cursor: pointer;
     list-style: none;
-
+    display: flex;
+    padding-left: 0;
+}
+footer .footer-left{
+    justify-self: left;
 }
 
-footer .footer-left li{
-    display: inline-block;
-}
+
 
 footer .footer-right{
-    text-decoration: none;
-    cursor: pointer;
-    list-style: none;
-
+    justify-self: right;
 }
 
-footer .footer-right li{
-    display: inline-block;
+footer ul li a{
+    margin: 10px;
+    color: #5f6368;
 }
