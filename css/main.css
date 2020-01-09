@@ -133,3 +133,28 @@ main .main-buttons button:hover {
     box-shadow: 0 1px 1px #cccccc;
     color: #222;
 }
+footer{
+    display: flex;
+}
+
+footer .footer-left{
+    text-decoration: none;
+    cursor: pointer;
+    list-style: none;
+
+}
+
+footer .footer-left li{
+    display: inline-block;
+}
+
+footer .footer-right{
+    text-decoration: none;
+    cursor: pointer;
+    list-style: none;
+
+}
+
+footer .footer-right li{
+    display: inline-block;
+}
