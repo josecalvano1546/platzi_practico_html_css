@@ -81,3 +81,28 @@ section  .left-5{
 
 /*-----------------rigth----------------------*/
 
+section  .right-1{
+    position: absolute;
+    top: 0;
+    left: 64%;
+}
+section  .right-2{
+    position: absolute;
+    top: 20%;
+    left: 75%;
+}
+section  .right-3{
+    position: absolute;
+    top: 40%;
+    left: 77%;
+}
+section  .right-4{
+    position: absolute;
+    top: 60%;
+    left: 75%;
+}
+section  .right-5{
+    position: absolute;
+    top: 80%;
+    left: 60%;
+}
