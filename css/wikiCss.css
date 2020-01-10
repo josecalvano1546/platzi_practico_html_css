@@ -1,0 +1,32 @@
+header{
+    text-align: center;
+    font-family: 'Linux Libertine','Hoefler Text',Georgia,'Times New Roman',Times,serif;
+    font-size: 35px;
+    
+}
+
+
+header .header-text {
+    margin: 40px auto 6px;
+    font-variant: small-caps;
+    font-weight: lighter;
+}
+header .header-subtext{
+    font-size: 16px;
+}
+
+section .section1{
+    position: relative;
+    width: 546px;
+    height: 325px;
+
+}
+section .image{
+    text-align: center;
+    padding-top: 80px;
+}
+section .image img{
+    width: 200px;
+    height: 183px;
+
+}
