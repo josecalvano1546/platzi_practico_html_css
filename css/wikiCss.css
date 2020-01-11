@@ -106,3 +106,81 @@ section  .right-5{
     top: 80%;
     left: 60%;
 }
+
+section  a  strong{
+    color: #36c;
+}
+section a small{
+    color: #54595d;
+}
+
+.section-2{
+    text-align: center;
+}
+
+section .section-buttom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #a2a9b1;
+    width: 450px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    border-radius: 3px;
+
+}
+
+section .section-buttom input:focus{
+    border:1px #36c solid;
+    -webkit-box-shadow:inset 0 0 0 1px #36c;
+    -moz-box-shadow:inset 0 0 0 1px #36c;
+    box-shadow:inset 0 0 0 1px #36c;
+    outline:0;
+}
+
+section .section-buttom input{
+    width: 300px;
+    border: none;
+    outline: none;
+    padding: 8px 140px 8px 0px;
+    font-size: 1.2rem;
+}
+.section-buttom .lenguaje{
+    position: absolute;
+    margin-left: 130px;
+    width: 50px;
+    height: 30px;
+}
+.section-buttom .lenguaje .contenido-lenguaje{
+    padding-top: 6px;
+}
+
+.section-buttom .lenguaje:hover{
+    background-color: #f8f9fa;
+    border-radius: 3px;
+}
+
+
+.section-buttom .lenguaje a{
+    color:#54595d;
+    font-size: 14px;
+}
+
+.flecha{
+    width: 10px;
+    height: 13px;
+}
+.section-buttom .busqueda-box{
+    background-color: #36c;
+    width: 60px;
+    height: 41px;
+    border-radius: 0 3px 3px 0;
+}
+.section-buttom .busqueda-box:hover{
+    background-color: #447ff5;
+}
+.busqueda {
+    width: 30px;
+    height: 30px; 
+    padding-top: 5px;
+}
