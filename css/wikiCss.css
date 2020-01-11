@@ -116,14 +116,15 @@ section a small{
 
 .section-2{
     text-align: center;
+    margin-top: 3px;
 }
 
 section .section-buttom{
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid #a2a9b1;
-    width: 450px;
+    width: 430px;
+    height: 40px;
     margin: 0 auto;
     box-sizing: border-box;
     border-radius: 3px;
@@ -132,6 +133,7 @@ section .section-buttom{
 
 section .section-buttom input:focus{
     border:1px #36c solid;
+    border-radius: 3px 0 0 3px;;
     -webkit-box-shadow:inset 0 0 0 1px #36c;
     -moz-box-shadow:inset 0 0 0 1px #36c;
     box-shadow:inset 0 0 0 1px #36c;
@@ -139,15 +141,18 @@ section .section-buttom input:focus{
 }
 
 section .section-buttom input{
-    width: 300px;
+    width: 660px;
     border: none;
     outline: none;
-    padding: 8px 140px 8px 0px;
-    font-size: 1.2rem;
+    padding: 8px 90px 8px 8px;
+    font-size: 1.1rem;
+    border: 1px solid #a2a9b1;
+    height: 25px;
+
 }
 .section-buttom .lenguaje{
     position: absolute;
-    margin-left: 130px;
+    margin-left: 110px;
     width: 50px;
     height: 30px;
 }
@@ -172,8 +177,8 @@ section .section-buttom input{
 }
 .section-buttom .busqueda-box{
     background-color: #36c;
-    width: 60px;
-    height: 41px;
+    width: 135px;
+    height: 43px;
     border-radius: 0 3px 3px 0;
 }
 .section-buttom .busqueda-box:hover{
