@@ -184,6 +184,15 @@ section .section-buttom input{
 .section-buttom .busqueda-box:hover{
     background-color: #447ff5;
 }
+
+.section-buttom .busqueda-box:focus{
+    border:1px #36c solid;
+    outline:0;
+}
+
+
+
+
 .busqueda {
     width: 30px;
     height: 30px; 
@@ -210,17 +219,22 @@ section .traductor{
     margin-top: 15px;
 
 }
+
 .traductor .boton-idioma{
    position: relative;
     z-index: 1;
     color: #36c;
     border-radius: 2px;
-    font-size: 15px;
+    font-size: 13px;
     font-weight: 400;
     padding: 5px;
     background-color: #f8f9fa;
+    border: 1px solid #a2a9b1
     
-   
+}
+.traductor .boton-idioma:hover{
+    background-color:white;
+
 }
 
 
