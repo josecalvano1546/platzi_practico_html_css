@@ -194,22 +194,31 @@ section .traductor{
    text-align: center;
    position: relative;
    margin: 40px auto;
-   width:800px;
+   width:500px;
    height: 50px;
-
+ 
 }
 
 
 .traductor .linea{
-    padding: 0 auto;
+   
     background-color: #c8ccd1;
     height: 1px;
     position: absolute;
-    width: 400px;
+    width: 100%;
     display: block;
+    margin-top: 15px;
+
 }
 .traductor .boton-idioma{
-   
+   position: relative;
+    z-index: 1;
+    color: #36c;
+    border-radius: 2px;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 5px;
+    background-color: #f8f9fa;
     
    
 }
