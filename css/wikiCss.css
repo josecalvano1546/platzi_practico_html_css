@@ -193,18 +193,42 @@ section .section-buttom input{
 section .traductor{
    text-align: center;
    position: relative;
+   margin: 40px auto;
+   width:800px;
+   height: 50px;
 
 }
+
 
 .traductor .linea{
-    margin: 40px auto;
-    max-width: 460px;
+    padding: 0 auto;
     background-color: #c8ccd1;
     height: 1px;
+    position: absolute;
+    width: 400px;
+    display: block;
 }
-button .boton-idioma{
-   background-image: linear-gradient(transparent,transparent),url('https://github.com/wikimedia/portals-deploy/blob/master/wikipedia.org/assets/img/sprite-556af1a5.svg');
+.traductor .boton-idioma{
+   
+    
+   
+}
 
 
-
+.boton-idioma i{
+    display: inline-block;
+    vertical-align: middle;
+}
+.icono-traductor{
+   background-image: linear-gradient(transparent,transparent),url('https://www.wikipedia.org/portal/wikipedia.org/assets/img/sprite-81a290a5.svg');
+    width: 25px;
+    height: 20px;
+    background-position: 0 -690px;
+    background-repeat: no-repeat;
+}
+.ico-flecha{
+    background-image: linear-gradient(transparent,transparent),url('https://www.wikipedia.org/portal/wikipedia.org/assets/img/sprite-81a290a5.svg');
+    width: 10px;
+    height: 8px;
+    background-position: 0 -520px; 
 }
